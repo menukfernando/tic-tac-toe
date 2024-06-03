@@ -1,0 +1,36 @@
+body{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10%;
+  background-color: skyblue;
+}
+
+h1{
+  text-align: center;
+  color: darkgreen;
+}
+
+.board{
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  cursor: pointer;
+  position: relative;
+}
+
+.square{
+  color: #218380;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-border{
+  border-right: 0.2em solid black;
+}
+
+.bottom-border{
+  border-bottom: 0.2em solid black;
+}
